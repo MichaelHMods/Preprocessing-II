@@ -1,3 +1,6 @@
+.testborder {
+  border: 1px solid red;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +171,16 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  width: 35%;
+  display: flex;
+  justify-content: left;
+}
+nav a {
+  font-size: 2rem;
+  margin-right: 8.7%;
+  padding-top: 2%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +191,22 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.whole-header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.whole-header .title {
+  width: 35%;
+  padding-left: 12.5%;
+}
+.whole-header .header-img {
+  width: 45%;
+  padding-left: 0%;
+  display: flex;
+  justify-content: center;
 }
 .home .content-section {
   margin: 30px 0;
